@@ -1,16 +1,16 @@
 # blogdown
 
-##运用r语言创作自己的博客
+## 运用r语言创作自己的博客
 
 
-###一、引言
+### 一、引言
 本文的所有理论基于**Xie yihui**创作的书本<blogdown: Creating Websites with R Markdown>，有兴趣的同学也可以[查看原文](https://bookdown.org/yihui/blogdown/)。本文旨在让多数人快速学会制作网页，因此省略一些原理性内容和对制作影响不大的内容。
 
 
-###二、制作blog吧
+### 二、制作blog吧
 
 
-####1，安装需要的packages
+#### 1，安装需要的packages
 利用r语言制作blog需要安装`blogdown`,请用以下命令安装。
 
 
@@ -26,7 +26,7 @@ install.packages("blogdown")
 blogdown::install_hugo()         
 ```
 
-####2，形成一个实例网页
+#### 2，形成一个实例网页
 
 `blogdown`程序包内含一个基础主题的blog网页，可以使用以下命令创建。
 
@@ -88,17 +88,17 @@ theme = "hugo-lithium-theme"
 6，可以用`addin`目录下的"new post"，产生新内容，新内容保存在`content`内
 
 
-####3，主题选择
+#### 3，主题选择
 
 blog制作的主题有很多，具体网址为[https://themes.gohugo.io/](https://themes.gohugo.io/)。
 
-####4，开始制作
+#### 4，开始制作
 
 大家肯定已经选好了想要的主题，那么我们开始吧。
 
 首先新建一个`new_site`，`File -> New project -> new directory -> website using blogdown`建立一个project，在theme内选择自己想要的主题，然后便做好了包含自己想要主题的网页。然后在`config.toml`内更改自己的全局设置，再用`addin -> new post`添加blog的内容，然后就做好了，附上一个本文作者做的网页[https://gameclub.netlify.com](https://gameclub.netlify.com)
 
 
-####5,netlify
+#### 5,netlify
 [netlify](https://app.netlify.com/)是一个可以将你做的静态网站发布出去的网站，该网站直接可以用github账户登录，并且是免费的，只需要将`public`文件夹上传上去即可
 
