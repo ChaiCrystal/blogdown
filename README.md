@@ -95,7 +95,9 @@ blog制作的主题有很多，具体网址为[https://themes.gohugo.io/](https:
 #### 4，开始制作
 
 大家肯定已经选好了想要的主题，那么我们开始吧。
-
+```
+blogdown::new_site(theme = "gcushen/hugo-academic")
+```
 首先新建一个`new_site`，`File -> New project -> new directory -> website using blogdown`建立一个project，在theme内选择自己想要的主题，然后便做好了包含自己想要主题的网页。然后在`config.toml`内更改自己的全局设置，再用`addin -> new post`添加blog的内容，然后就做好了，附上一个本文作者做的网页[https://gameclub.netlify.com](https://gameclub.netlify.com)
 
 
