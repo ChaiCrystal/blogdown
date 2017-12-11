@@ -109,6 +109,13 @@ blogdown::new_site(theme = "chipsenkbeil/grid-side")
 <iframe width="***" height="***" src="http://player.youku.com/embed/*******" frameborder="0" allowfullscreen></iframe>
 ```
 width和height代表视频的长和宽，该代码可以将优酷视频用iframe格式播放
+本地视频插入
+```
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+      <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+      <p>Your user agent does not support the HTML5 Video element.</p>
+    </video>
+```    
 
 #### 6,netlify
 [netlify](https://app.netlify.com/)是一个可以将你做的静态网站发布出去的网站，该网站直接可以用github账户登录，并且是免费的，只需要将`public`文件夹上传上去即可
