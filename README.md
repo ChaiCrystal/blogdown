@@ -102,6 +102,14 @@ blogdown::new_site(theme = "chipsenkbeil/grid-side")
 ![](https://github.com/notplayingcute/blogdown/blob/master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(2).png)
 图二
 
-#### 5,netlify
+
+#### 5,常用代码
+插入视频
+```
+<iframe width="1000" height="625" src="http://player.youku.com/embed/XMzA4MTAzNDYwMA" frameborder="0" allowfullscreen></iframe>
+```
+width和hight代表视频的长和宽，该代码可以将优酷视频用iframe格式播放
+
+#### 6,netlify
 [netlify](https://app.netlify.com/)是一个可以将你做的静态网站发布出去的网站，该网站直接可以用github账户登录，并且是免费的，只需要将`public`文件夹上传上去即可
 
