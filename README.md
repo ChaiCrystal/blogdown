@@ -98,8 +98,9 @@ blog制作的主题有很多，具体网址为[https://themes.gohugo.io/](https:
 ```
 blogdown::new_site(theme = "chipsenkbeil/grid-side")
 ```
-首先新建一个`new_site`，`File -> New project -> new directory -> website using blogdown`建立一个project，在theme内选择自己想要的主题，然后便做好了包含自己想要主题的网页。然后在`config.toml`内更改自己的全局设置，再用`addin -> new post`添加blog的内容，然后就做好了，附上一个本文作者做的网页[https://gameclub.netlify.com](https://gameclub.netlify.com)
-
+首先`new_site`，`File -> New project -> new directory -> website using blogdown`建立一个project，如图二所示，在theme内选择自己想要的主题，然后便做好了包含自己想要主题的网页。然后在`config.toml`内更改自己的全局设置，再用`addin -> new post`添加blog的内容，然后就做好了，附上一个本文作者做的网页[https://gameclub.netlify.com](https://gameclub.netlify.com)
+![](https://github.com/notplayingcute/blogdown/blob/master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE(2).png)
+图二
 
 #### 5,netlify
 [netlify](https://app.netlify.com/)是一个可以将你做的静态网站发布出去的网站，该网站直接可以用github账户登录，并且是免费的，只需要将`public`文件夹上传上去即可
