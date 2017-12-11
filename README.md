@@ -111,8 +111,8 @@ blogdown::new_site(theme = "chipsenkbeil/grid-side")
 width和height代表视频的长和宽，该代码可以将优酷视频用iframe格式播放
 本地视频插入
 ```
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-      <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+<video id="video" controls="" preload="none" poster="*****">
+      <source id="mp4" src="***" type="video/mp4">
       <p>Your user agent does not support the HTML5 Video element.</p>
     </video>
 ```    
